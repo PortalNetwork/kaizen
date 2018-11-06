@@ -15,8 +15,7 @@ RUN echo "export GOROOT=/usr/local/go" >> /etc/profile
 RUN echo "export PATH=$GOROOT/bin:$PATH" >> /etc/profile
 RUN echo "export GOPATH=/go" >> /etc/profile
 
-# TODO this should load from github
-ADD . /go/src/github.com/nknorg/nkn
+RUN git clone https://github.com/nknorg/nkn.git /go/src/github.com/nknorg/nkn
 
 WORKDIR /go/src/github.com/nknorg/nkn
 RUN make glide
