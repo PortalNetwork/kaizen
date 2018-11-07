@@ -9,13 +9,12 @@ MAINTAINER Lars Gierth <lgierth@ipfs.io>
 ENV GX_IPFS ""
 ENV SRC_DIR /go/src/github.com/ipfs/go-ipfs
 
-COPY . $SRC_DIR
+RUN git clone https://github.com/ipfs/go-ipfs $SRC_DIR
 
 # Build the thing.
 # Also: fix getting HEAD commit hash via git rev-parse.
 # Also: allow using a custom IPFS API endpoint.
 RUN cd $SRC_DIR \
-  && mkdir .git/objects \
   && ([ -z "$GX_IPFS" ] || echo $GX_IPFS > /root/.ipfs/api) \
   && make build
 
