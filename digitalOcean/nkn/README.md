@@ -16,7 +16,12 @@ If you already have DigitalOcean account, you can login into your account.
 ### Sign up
 If you don't have DigitalOcean account, please sign up.
 
-## 1. Create Droplets
+## 1. Create Project
+![Create Project](https://s3.amazonaws.com/kaizen-images/github/create_project.png)
+
+## 2. Create Droplets
+![Create Droplet](https://s3.amazonaws.com/kaizen-images/github/create_droplet.png)
+
 ### Droplets configuration
 - Choose an image
     - Debian: 9.5 x 64
@@ -27,11 +32,15 @@ If you don't have DigitalOcean account, please sign up.
     - Transfer: 1000 GB
     - Price: $5 / month
 
+![Choose Image](https://s3.amazonaws.com/kaizen-images/github/choose_nkn_image.png)
+
 - CPU Optimized Droplets (Skip)
 - Add backups (Skip)
 - Add block storage (Skip)
 - Choose a datacenter region
     - Bangalore
+
+![Choose Region](https://s3.amazonaws.com/kaizen-images/github/choose_region.png)
 
 - Select additional options (Skip)
 - Add your SSH keys (Skip)
@@ -40,7 +49,7 @@ If you don't have DigitalOcean account, please sign up.
 
 - Click __Create__
 
-## 2. Connect to node
+## 3. Connect to node
 After create the Droplets, you will receive the email include:
 - Droplet Name
 - IP Address
@@ -54,7 +63,7 @@ $ ssh root@<IP_ADDRESS>
 
 _NOTE: You must change your password at the first time you connect to the droplet node._
 
-## 3. Installation
+## 4. Installation
 
 Update Debian 
 ```shell
@@ -101,7 +110,7 @@ Re-source bash
 source .bashrc
 ```
 
-## 4. Download and build
+## 5. Download and build
 
 Create folder for NKN
 ```shell
