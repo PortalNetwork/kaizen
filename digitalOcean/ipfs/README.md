@@ -1,9 +1,6 @@
 # Setting up IPFS on DigitalOcean
 
->
-
-https://m.do.co/c/fcbab816fcb1
-
+> A peer-to-peer hypermedia protocol to make the web faster, safer, and more open.
 
 ## What is needed
 

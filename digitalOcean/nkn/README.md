@@ -1,9 +1,6 @@
 # Setting up NKN on DigitalOcean
 
->
-
-https://m.do.co/c/fcbab816fcb1
-
+> NKN is the next generation of peer to peer network infrastructure built upon blockchain technology backed by Cellular Automata theory aiming at revolutionizing the Internet with true decentralization and native token incentive mechanism. 
 
 ## What is needed
 
