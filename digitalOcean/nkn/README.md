@@ -16,7 +16,7 @@ If you already have DigitalOcean account, you can login into your account.
 ### Sign up
 If you don't have DigitalOcean account, please sign up.
 
-### 1. Create Droplets
+## 1. Create Droplets
 ### Droplets configuration
 - Choose an image
     - Debian: 9.5 x 64
@@ -40,7 +40,7 @@ If you don't have DigitalOcean account, please sign up.
 
 - Click __Create__
 
-### 2. Connect to node
+## 2. Connect to node
 After create the Droplets, you will receive the email include:
 - Droplet Name
 - IP Address
@@ -54,7 +54,7 @@ $ ssh root@<IP_ADDRESS>
 
 _NOTE: You must change your password at the first time you connect to the droplet node._
 
-### 3. Installation
+## 3. Installation
 
 Update Debian 
 ```
@@ -101,7 +101,7 @@ Re-source bash
 source .bashrc
 ```
 
-### 4. Download and build
+## 4. Download and build
 
 Create folder for NKN
 ```
@@ -133,7 +133,7 @@ Build the source code with make
 make
 ```
 
-#### Testnet config and wallet creation
+### Testnet config and wallet creation
 The configuration of a NKN Node is stored in the config.json file. Fortunately NKN already has a testnet configuration file for you which has only to be copied. Just type
 ```
 cp config.testnet.json config.json
@@ -144,7 +144,7 @@ If you want to create a new wallet for NKN type:
 ./nknc wallet -c
 ```
 
-#### Test mining
+### Test mining
 ```
 ./nknd -p YOUR_WALLET_PASSWORD
 ```

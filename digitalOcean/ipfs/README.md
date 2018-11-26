@@ -16,7 +16,7 @@ If you already have DigitalOcean account, you can login into your account.
 ### Sign up
 If you don't have DigitalOcean account, please sign up.
 
-### 1. Create Droplets
+## 1. Create Droplets
 ### Droplets configuration
 - Choose an image
     - Ubuntu: 18.04 x 64
@@ -40,7 +40,7 @@ If you don't have DigitalOcean account, please sign up.
 
 - Click __Create__
 
-### 2. Connect to node
+## 2. Connect to node
 After create the Droplets, you will receive the email include:
 - Droplet Name
 - IP Address
@@ -54,7 +54,7 @@ $ ssh root@<IP_ADDRESS>
 
 _NOTE: You must change your password at the first time you connect to the droplet node._
 
-### 3. Download and build
+## 3. Download and build
 
 Download newest version from IPFS
 ```shell
@@ -72,7 +72,7 @@ cd go-ipfs
 sudo ./install.sh
 ```
 
-### 4. Start service
+## 4. Start service
 
 Initilize IPFS
 ```shell
@@ -86,7 +86,7 @@ ipfs daemon
 
 Done! The IPFS daemon is started.
 
-### 5. Upload file to IPFS
+## 5. Upload file to IPFS
 
 ```shell
 echo "hello world" | ipfs add
