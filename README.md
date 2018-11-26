@@ -16,3 +16,33 @@
 - Ethereum
 - [IPFS](./digitalOcean/ipfs)
 - [NKN](./digitalOcean/nkn)
+
+## Useful endpoints/provider
+
+### Ethereum
+- Infura (Mainnet): https://mainnet.infura.io/
+- Infura (Ropsten testnet): https://ropsten.infura.io/
+- myetherwallet.com (Mainnet): https://o70075sme1.execute-api.us-east-1.amazonaws.com/latest/eth
+- myetherwallet.com (Ropsten testnet): https://api.myetherwallet.com/rop
+- Etherscan (Mainnet): https://api.etherscan.io/api
+
+### Ethereum Classic
+- Epool (Mainnet): https://mew.epool.io
+- GasTracker (Mainnet): https://web3.gastracker.io
+- Ethereum Commonwealth Geth (Mainnet): https://etc-geth.0xinfra.com/
+- Ethereum Commonwealth Parity (Mainnet): https://etc-parity.0xinfra.com/
+- ETC Cooperative (Mainnet): https://ethereumclassic.network
+
+### IPFS Gateway
+- Infura: https://ipfs.infura.io/
+- Cloudflare: https://cloudflare-ipfs.com/
+- IPFS: https://gateway.ipfs.io/
+
+### IPFS API Server
+- Infura: https://ipfs.infura.io:5001/
+
+### TomoChain
+- TomoCoin (Testnet): https://core.tomocoin.io
+
+### ICON
+- ICON Network (Yeouido): https://bicon.net.solidwallet.io
