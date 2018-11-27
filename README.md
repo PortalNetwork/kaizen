@@ -46,3 +46,7 @@
 
 ### ICON
 - ICON Network (Yeouido): https://bicon.net.solidwallet.io
+
+### NEO
+- NewEconoLabs (Mainnet): https://api.nel.group/api/mainnet
+- NewEconoLabs (Testnet): https://api.nel.group/api/testnet
