@@ -12,8 +12,10 @@
 
 ## Start instance manually
 
+### AWS
+- [Wanchain](./AWS/wanchain)
+
 ### DigitalOcean
-- Ethereum
 - [IPFS](./digitalOcean/ipfs)
 - [NKN](./digitalOcean/nkn)
 - [Wanchain](./digitalOcean/wanchain)
