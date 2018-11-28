@@ -22,11 +22,18 @@ If you don't have AWS account, please sign up.
 - Choose an image
     - Ubuntu: 18.04 x 64
 
-- Choose a size
-    - CPU: 1 GB
-    - SSD: 25 GB
-    - Transfer: 1000 GB
-    - Price: $5 / month
+![Choose AMI](https://s3.amazonaws.com/kaizen-images/github/aws_choose_ami.png)
+
+- Choose an instance
+    - Type: t2.micro (Free tier)
+    - vCPUs: 1
+    - Memory: 1 GB
+    - Storage: EBS only
+
+![Choose Instance](https://s3.amazonaws.com/kaizen-images/github/aws_choose_instance.png)
+
+Review the instance information
+![Review Instance](https://s3.amazonaws.com/kaizen-images/github/aws_review_instance.png)
 
 ### Using AWS S3 to store Wanchain blockchain data
 
@@ -36,12 +43,16 @@ If you don't have AWS account, please sign up.
 ssh -i <PEM_PATH> ubuntu@<HOSTNAME>
 ```
 
+![Launch Instance](https://s3.amazonaws.com/kaizen-images/github/aws_launch_instance.png)
+
 ## 3. Download and build
 
 Download newest version from Wanchain
 ```
 wget https://github.com/wanchain/go-wanchain/releases/download/v1.0.4/gwan-linux-amd64-1.0.4-b7ce29ea.tar.gz
 ```
+
+![Latest Wanchain](https://s3.amazonaws.com/kaizen-images/github/aws_review_instance.png)
 
 Unzip Wanchain file
 ```
