@@ -53,3 +53,6 @@
 ### NEO
 - NewEconoLabs (Mainnet): https://api.nel.group/api/mainnet
 - NewEconoLabs (Testnet): https://api.nel.group/api/testnet
+
+### Wanchain
+- Portal Network (Mainnet): http://wanchain.portal.network
