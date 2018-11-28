@@ -72,7 +72,7 @@ _NOTE: You must change your password at the first time you connect to the drople
 
 ## 4. Download and build
 
-Download newest version from IPFS
+Download newest version from Wanchain
 ```shell
 wget https://github.com/wanchain/go-wanchain/releases/download/v1.0.4/gwan-linux-amd64-1.0.4-b7ce29ea.tar.gz
 ```
@@ -82,7 +82,7 @@ Unzip the file
 tar xvfz gwan-linux-amd64-1.0.4-b7ce29ea.tar.gz
 ```
 
-Run the script to install IPFS
+Run the script to install Wanchain
 ```shell
 cd gwan-linux-amd64-1.0.4-b7ce29ea
 ./gwan --datadir=<VOLUMN_PATH>
