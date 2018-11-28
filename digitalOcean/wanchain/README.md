@@ -1,6 +1,6 @@
-# Setting up NKN on DigitalOcean
+# Setting up Wanchain on DigitalOcean
 
-> NKN is the next generation of peer to peer network infrastructure built upon blockchain technology backed by Cellular Automata theory aiming at revolutionizing the Internet with true decentralization and native token incentive mechanism. 
+> Wanchain aims to build a super financial market of digital assets. It is an infrastructure connecting different digital assets.
 
 ## What is needed
 
@@ -51,7 +51,7 @@ If you don't have DigitalOcean account, please sign up.
 
 - Click __Create__
 
-### Add Volumn for store Wanchain block
+### Add Volumn for store Wanchain blockchain data
 
 You can choose the size you need, recommend 250G.
 ![Add Volumn](https://s3.amazonaws.com/kaizen-images/github/add_volumn.png)
