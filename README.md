@@ -16,6 +16,7 @@
 - Ethereum
 - [IPFS](./digitalOcean/ipfs)
 - [NKN](./digitalOcean/nkn)
+- [Wanchain](./digitalOcean/wanchain)
 
 ## Useful endpoints/provider
 
