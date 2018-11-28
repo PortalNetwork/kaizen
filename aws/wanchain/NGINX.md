@@ -42,6 +42,11 @@ Start nginx server
 sudo service nginx start
 ```
 
+Try access your API endpoint
+```
+curl <HOSTNAME> -X POST -H "Content-Type: application/json" -d '{"jsonrpc":"2.0","method":"eth_syncing","params": [],"id":1}'
+```
+
 ## Resource 
 https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-18-04
 http://single9.net/2018/03/nginx-reverse-proxy-server-and-socket-io/
