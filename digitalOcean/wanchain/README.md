@@ -47,7 +47,7 @@ If you don't have DigitalOcean account, please sign up.
 - Finalize and create
     - Choose a hostname: _Type a name you'd like_ or using default
 
-![Choose Hostname](https://s3.amazonaws.com/kaizen-images/github/choose_hostname.png)
+![Choose Hostname](https://s3.amazonaws.com/kaizen-images/github/choose_wanchain_hostname.png)
 
 - Click __Create__
 
@@ -76,6 +76,8 @@ Download newest version from Wanchain
 ```shell
 wget https://github.com/wanchain/go-wanchain/releases/download/v1.0.4/gwan-linux-amd64-1.0.4-b7ce29ea.tar.gz
 ```
+
+![Latest Wanchain](https://s3.amazonaws.com/kaizen-images/github/aws_review_instance.png)
 
 Unzip the file
 ```shell
