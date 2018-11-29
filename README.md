@@ -4,24 +4,29 @@
 
 > KAIZEN empowers users to learn, deploy, run, and manage decentralized applications utilizing languages and frameworks.
 
-## Start instance using Docker
+## Contents
+- [Docker](#docker)
+- [AWS](#aws)
+- [DigitalOcea](#digitalocean)
+- [Service Provider](#service-provider)
+- [Contributing](#contributing)
+
+## <a name="docker"></a>Docker
 - [Ethereum](./docker/ethereum)
 - [IPFS](./docker/ipfs)
 - [NKN](./docker/nkn)
 - [NOIA](./docker/noia)
 
-## Start instance manually
-
-### AWS
+## <a name="aws"></a>AWS
 - [IPFS](./AWS/ipfs)
 - [Wanchain](./AWS/wanchain)
 
-### DigitalOcean
+## <a name="digitalocean"></a>DigitalOcean
 - [IPFS](./digitalOcean/ipfs)
 - [NKN](./digitalOcean/nkn)
 - [Wanchain](./digitalOcean/wanchain)
 
-## Useful endpoints/provider
+## <a name="service-provider"></a>Service Provider
 
 ### Ethereum
 - Infura (Mainnet): https://mainnet.infura.io/
@@ -57,3 +62,7 @@
 
 ### Wanchain
 - Portal Network (Mainnet): http://wanchain.portal.network
+
+## <a name="contributing"></a>Contributing
+We love our contributors!  
+Check out our [help wanted](https://github.com/PortalNetwork/kaizen/labels/help%20wanted) or [good first issue](https://github.com/PortalNetwork/kaizen/labels/good%20first%20issue) labels to find issues we want to move forward on with your help.
