@@ -13,6 +13,7 @@
 ## Start instance manually
 
 ### AWS
+- [IPFS](./AWS/ipfs)
 - [Wanchain](./AWS/wanchain)
 
 ### DigitalOcean
