@@ -24,8 +24,9 @@ The following documents show how to start an instance using AWS EC2.
 
 - [IPFS](./AWS/ipfs)
     - [Nginx for IPFS Gateway](./AWS/ipfs/NGINX.md)
+    - Nginx for IPFS API Server
 - [Wanchain](./AWS/wanchain)
-    - [Nginx for Wanchain JSON RPC Service](./AWS/wanchain/NGINX.md)
+    - [Nginx for Wanchain JSON RPC Server](./AWS/wanchain/NGINX.md)
 
 ## <a name="digitalocean"></a>DigitalOcean
 The following documents show how to start an droplet on DigitalOcean.
