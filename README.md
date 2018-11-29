@@ -1,4 +1,4 @@
-# KAIZEN
+![KAIZEN](https://s3.amazonaws.com/kaizen-images/github/KAIZEN.png)
 
 [![Join the chat at https://gitter.im/PortalNetwork/kaizen](https://badges.gitter.im/PortalNetwork/kaizen.svg)](https://gitter.im/PortalNetwork/kaizen?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
