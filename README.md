@@ -12,16 +12,24 @@
 - [Contributing](#contributing)
 
 ## <a name="docker"></a>Docker
+The following are services you can instantly install via Docker.
+
 - [Ethereum](./docker/ethereum)
 - [IPFS](./docker/ipfs)
 - [NKN](./docker/nkn)
 - [NOIA](./docker/noia)
 
 ## <a name="aws"></a>AWS
+The following documents show how to start an instance using AWS EC2.
+
 - [IPFS](./AWS/ipfs)
+    - [Nginx for IPFS Gateway](./AWS/ipfs/NGINX.md)
 - [Wanchain](./AWS/wanchain)
+    - [Nginx for Wanchain JSON RPC Service](./AWS/wanchain/NGINX.md)
 
 ## <a name="digitalocean"></a>DigitalOcean
+The following documents show how to start an droplet on DigitalOcean.
+
 - [IPFS](./digitalOcean/ipfs)
 - [NKN](./digitalOcean/nkn)
 - [Wanchain](./digitalOcean/wanchain)
