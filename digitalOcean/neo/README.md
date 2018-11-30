@@ -21,11 +21,11 @@ If you don't have DigitalOcean account, please sign up.
 
 ## 1. Create Project
 
-[![Create Project](https://camo.githubusercontent.com/e671515f25c34e582e35c909a7349d09aeaddf82/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6b61697a656e2d696d616765732f6769746875622f6372656174655f70726f6a6563742e706e67)](https://camo.githubusercontent.com/e671515f25c34e582e35c909a7349d09aeaddf82/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6b61697a656e2d696d616765732f6769746875622f6372656174655f70726f6a6563742e706e67)
+![Create Project](https://camo.githubusercontent.com/e671515f25c34e582e35c909a7349d09aeaddf82/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6b61697a656e2d696d616765732f6769746875622f6372656174655f70726f6a6563742e706e67)
 
 ## 2. Create Droplets
 
-[![Create Droplet](https://camo.githubusercontent.com/97daf57bae21be0adcc994f1c553bb255065cb66/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6b61697a656e2d696d616765732f6769746875622f6372656174655f64726f706c65742e706e67)](https://camo.githubusercontent.com/97daf57bae21be0adcc994f1c553bb255065cb66/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6b61697a656e2d696d616765732f6769746875622f6372656174655f64726f706c65742e706e67)
+![Create Droplet](https://camo.githubusercontent.com/97daf57bae21be0adcc994f1c553bb255065cb66/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6b61697a656e2d696d616765732f6769746875622f6372656174655f64726f706c65742e706e67)
 
 ### Droplets configuration
 
@@ -37,7 +37,7 @@ If you don't have DigitalOcean account, please sign up.
   - Transfer: 1000 GB
   - Price: $5 / month
 
-[![Choose Image](https://s3.amazonaws.com/kaizen-images/github/choose_ipfs_image.png)
+![Choose Image](https://s3.amazonaws.com/kaizen-images/github/choose_ipfs_image.png)
 
 - CPU Optimized Droplets (Skip)
 - Add backups (Skip)
@@ -45,7 +45,7 @@ If you don't have DigitalOcean account, please sign up.
 - Choose a datacenter region
   - Bangalore
 
-[![Choose Region](https://camo.githubusercontent.com/0d436a7b70190cdab41975630dd917d627b93ea1/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6b61697a656e2d696d616765732f6769746875622f63686f6f73655f726567696f6e2e706e67)(https://camo.githubusercontent.com/0d436a7b70190cdab41975630dd917d627b93ea1/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6b61697a656e2d696d616765732f6769746875622f63686f6f73655f726567696f6e2e706e67)
+![Choose Region](https://camo.githubusercontent.com/0d436a7b70190cdab41975630dd917d627b93ea1/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6b61697a656e2d696d616765732f6769746875622f63686f6f73655f726567696f6e2e706e67)
 
 - Select additional options (Skip)
 - Add your SSH keys (Skip)
