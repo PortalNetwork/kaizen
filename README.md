@@ -4,14 +4,18 @@
 
 > KAIZEN empowers users to learn, deploy, run, and manage decentralized applications utilizing languages and frameworks.
 
-## Contents
-- [Docker](#docker)
-- [AWS](#aws)
-- [DigitalOcea](#digitalocean)
+## Table of Contents
+- [Quick start](#quick-start)
+    - [Docker](#docker) - Start blockchain services with Docker
+    - [AWS](#aws) - Start blockchain services and host on AWS in 10 minutes
+    - [DigitalOcean](#digitalocean) - Start blockchain services and host on DigitalOcean in 10 minutes
 - [Service Provider](#service-provider)
 - [Contributing](#contributing)
 
-## <a name="docker"></a>Docker
+## <a name="quick-start"></a>Quick start
+Start blockchain services by using Docker, AWS and DigitalOcean.
+
+### <a name="docker"></a>Using Docker
 The following are services you can instantly install via Docker.
 
 - [Ethereum](./docker/ethereum)
@@ -19,7 +23,7 @@ The following are services you can instantly install via Docker.
 - [NKN](./docker/nkn)
 - [NOIA](./docker/noia)
 
-## <a name="aws"></a>AWS
+### <a name="aws"></a>Usgin AWS
 The following documents show how to start an instance using AWS EC2.
 
 - [IPFS](./AWS/ipfs)
@@ -28,7 +32,7 @@ The following documents show how to start an instance using AWS EC2.
 - [Wanchain](./AWS/wanchain)
     - [Nginx for Wanchain JSON RPC Server](./AWS/wanchain/NGINX.md)
 
-## <a name="digitalocean"></a>DigitalOcean
+### <a name="digitalocean"></a>Using DigitalOcean
 The following documents show how to start an droplet on DigitalOcean.
 
 - [IPFS](./digitalOcean/ipfs)
@@ -51,13 +55,18 @@ The following documents show how to start an droplet on DigitalOcean.
 - Ethereum Commonwealth Parity (Mainnet): https://etc-parity.0xinfra.com/
 - ETC Cooperative (Mainnet): https://ethereumclassic.network
 
-### IPFS Gateway
+### IPFS
+
+#### IPFS Gateway
 - Infura: https://ipfs.infura.io/
 - Cloudflare: https://cloudflare-ipfs.com/
 - IPFS: https://gateway.ipfs.io/
 
-### IPFS API Server
+#### IPFS API Server
 - Infura: https://ipfs.infura.io:5001/
+
+### QuarkChain
+- QuarkChain (Testnet): http://jrpc.testnet.quarkchain.io:38391
 
 ### TomoChain
 - TomoCoin (Testnet): https://core.tomocoin.io
