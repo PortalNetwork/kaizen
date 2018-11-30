@@ -1,6 +1,6 @@
 # Start a Ontology on DigitalOcean
 
-> NEO is a non-profit community-driven blockchain project. It utilizes blockchain technology and digital identity to digitize assets and automate the management of digital assets using smart contracts. Using a distributed network, it aims to create a "Smart Economy".
+> Ontology is a new high-performance public blockchain project & a distributed trust collaboration platform. Ontology provides new high-performance public blockchains that include a series of complete distributed ledgers and smart contract systems.
 
 ## What is needed
 
