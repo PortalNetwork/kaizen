@@ -27,8 +27,8 @@ The following are services you can instantly install via Docker.
 The following documents show how to start an instance using AWS EC2.
 
 - [IPFS](./AWS/ipfs)
-    - [Nginx for IPFS Gateway](./AWS/ipfs/NGINX.md)
-    - Nginx for IPFS API Server
+    - [Nginx for IPFS Gateway](./AWS/ipfs/NGINX_GATEWAY.md)
+    - [Nginx for IPFS API Server](./AWS/ipfs/NGINX_API_SERVER.md)
 - [Wanchain](./AWS/wanchain)
     - [Nginx for Wanchain JSON RPC Server](./AWS/wanchain/NGINX.md)
 

@@ -1,6 +1,6 @@
-# Setting up Wanchain on AWS
+# Setting up IPFS on AWS
 
-> Wanchain aims to build a super financial market of digital assets. It is an infrastructure connecting different digital assets.
+> A peer-to-peer hypermedia protocol to make the web faster, safer, and more open.
 
 ## What is needed
 
