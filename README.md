@@ -11,6 +11,7 @@
     - [DigitalOcean](#digitalocean) - Start blockchain services and host on DigitalOcean in 10 minutes
 - [Service Provider](#service-provider)
 - [Contributing](#contributing)
+- [Community](#community)
 
 ## <a name="quick-start"></a>Quick start
 Start blockchain services by using Docker, AWS and DigitalOcean.
@@ -84,3 +85,11 @@ The following documents show how to start an droplet on DigitalOcean.
 ## <a name="contributing"></a>Contributing
 We love our contributors!  
 Check out our [help wanted](https://github.com/PortalNetwork/kaizen/labels/help%20wanted) or [good first issue](https://github.com/PortalNetwork/kaizen/labels/good%20first%20issue) labels to find issues we want to move forward on with your help.
+
+## <a name="community"></a>Community
+- [Twitter](https://twitter.com/itisportal)
+- [Facebook](https://www.facebook.com/portalnetworkofficial)
+- [Reddit](https://www.reddit.com/r/portalnetwork)
+- [Telegram](https://t.me/portalnetworkofficial)
+- [Medium](https://medium.com/portalnetworkofficial)
+- [Gitter](https://gitter.im/PortalNetwork/kaizen)
