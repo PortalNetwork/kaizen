@@ -30,14 +30,14 @@ If you don't have DigitalOcean account, please sign up.
 ### Droplets configuration
 
 - Choose an image
-  - Debian: 9.5 x 64
+  - Ubuntu 18.04
 - Choose a size
   - CPU: 1 GB
   - SSD: 25 GB
   - Transfer: 1000 GB
   - Price: $5 / month
 
-[![Choose Image](https://camo.githubusercontent.com/39cfcdc79996292406879cbcf72a5f83c94ee6aa/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6b61697a656e2d696d616765732f6769746875622f63686f6f73655f6e6b6e5f696d6167652e706e67)](https://camo.githubusercontent.com/39cfcdc79996292406879cbcf72a5f83c94ee6aa/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6b61697a656e2d696d616765732f6769746875622f63686f6f73655f6e6b6e5f696d6167652e706e67)
+![Choose Image](https://s3.amazonaws.com/kaizen-images/github/choose_ipfs_image.png)
 
 - CPU Optimized Droplets (Skip)
 - Add backups (Skip)
@@ -72,7 +72,7 @@ $ ssh root@<IP_ADDRESS>
 
 ## 4. Installation
 
-Update Debian
+Update Ubuntu 
 
 ```
 apt-get update
@@ -111,7 +111,7 @@ Before you can start a node on Digital Ocean, you need to open up a wallet ( acc
 Check your wallet address 
 
 ```
-./ontology accont list
+./ontology account list
 ```
 
 Now you can start a node ( testnet )
