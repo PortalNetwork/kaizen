@@ -30,14 +30,14 @@ If you don't have DigitalOcean account, please sign up.
 ### Droplets configuration
 
 - Choose an image
-  - Debian: 9.5 x 64
+  - Ubuntu 18.04
 - Choose a size
   - CPU: 1 GB
   - SSD: 25 GB
   - Transfer: 1000 GB
   - Price: $5 / month
 
-[![Choose Image](https://camo.githubusercontent.com/39cfcdc79996292406879cbcf72a5f83c94ee6aa/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6b61697a656e2d696d616765732f6769746875622f63686f6f73655f6e6b6e5f696d6167652e706e67)](https://camo.githubusercontent.com/39cfcdc79996292406879cbcf72a5f83c94ee6aa/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6b61697a656e2d696d616765732f6769746875622f63686f6f73655f6e6b6e5f696d6167652e706e67)
+[![Choose Image](https://camo.githubusercontent.com/e671515f25c34e582e35c909a7349d09aeaddf82/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6b61697a656e2d696d616765732f6769746875622f6372656174655f70726f6a6563742e706e67)
 
 - CPU Optimized Droplets (Skip)
 - Add backups (Skip)
@@ -72,7 +72,7 @@ $ ssh root@<IP_ADDRESS>
 
 ## 4. Installation
 
-Update Debian
+Update ubuntu
 
 ```
 apt-get update
@@ -83,6 +83,7 @@ Install Database
 ```
 sudo apt-get install unzip libleveldb-dev sqlite3 libsqlite3-dev libunwind8-dev
 ```
+Please select 'Y' inorder to install
 
 We are using neo-python to setup everything so we need to install python3 and pip3 first
 
@@ -95,7 +96,7 @@ apt install python3
 Install pip3
 
 ```
-apt install pip3
+apt install python3-pip
 ```
 
 
@@ -140,6 +141,11 @@ Bootstrap the testnet blockchain
 
 ```
 np-bootstrap
+
+root@test:~/neo-python# np-bootstrap
+This will overwrite any data currently in /root/.neopython/Chains/SC234.
+Type 'confirm' to continue
+[confirm]> 
 ```
 
 Bootstrap the testnet notifications database 
@@ -156,6 +162,11 @@ Its easy to start NEO testnet now, just typing the following cmd
 
 ```
 np-prompt
+
+root@test:~/neo-python# np-prompt
+[I 181130 08:20:27 LevelDBBlockchain:112] Created Blockchain DB at /root/.neopython/Chains/SC234
+[I 181130 08:20:33 NotificationDB:73] Created Notification DB At /root/.neopython/Chains/Test_Notif
+NEO cli. Type 'help' to get started
 ```
 
 If you want to create a new wallet for NEO:
@@ -169,4 +180,5 @@ Open  wallet
 ```
 open wallet {your_wallet_name}
 ```
+NEO cli can reference here: https://github.com/CityOfZion/neo-python#running
 
