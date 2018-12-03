@@ -21,16 +21,16 @@ If you don't have DigitalOcean account, please sign up.
 
 ## 1. Create Project
 
-![Create Project](https://camo.githubusercontent.com/e671515f25c34e582e35c909a7349d09aeaddf82/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6b61697a656e2d696d616765732f6769746875622f6372656174655f70726f6a6563742e706e67)
+![Create Project](https://s3.amazonaws.com/kaizen-images/github/create_project.png)
 
 ## 2. Create Droplets
 
-![Create Droplet](https://camo.githubusercontent.com/97daf57bae21be0adcc994f1c553bb255065cb66/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6b61697a656e2d696d616765732f6769746875622f6372656174655f64726f706c65742e706e67)
+![Create Droplet]( https://s3.amazonaws.com/kaizen-images/github/create_droplet.png)
 
 ### Droplets configuration
 
 - Choose an image
-  - Ubuntu 18.04
+  - Ubuntu 18.04 x 64
 - Choose a size
   - CPU: 1 GB
   - SSD: 25 GB
@@ -45,7 +45,7 @@ If you don't have DigitalOcean account, please sign up.
 - Choose a datacenter region
   - Bangalore
 
-![Choose Region](https://camo.githubusercontent.com/0d436a7b70190cdab41975630dd917d627b93ea1/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6b61697a656e2d696d616765732f6769746875622f63686f6f73655f726567696f6e2e706e67)
+![Choose Region](https://s3.amazonaws.com/kaizen-images/github/choose_region.png )
 
 - Select additional options (Skip)
 - Add your SSH keys (Skip)
@@ -162,7 +162,10 @@ Its easy to start NEO testnet now, just typing the following cmd
 
 ```
 np-prompt
+```
+And the output will showing the following message
 
+```
 root@test:~/neo-python# np-prompt
 [I 181130 08:20:27 LevelDBBlockchain:112] Created Blockchain DB at /root/.neopython/Chains/SC234
 [I 181130 08:20:33 NotificationDB:73] Created Notification DB At /root/.neopython/Chains/Test_Notif
