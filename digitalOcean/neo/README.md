@@ -141,7 +141,8 @@ Bootstrap the testnet blockchain
 
 ```
 np-bootstrap
-
+```
+```
 root@test:~/neo-python# np-bootstrap
 This will overwrite any data currently in /root/.neopython/Chains/SC234.
 Type 'confirm' to continue
