@@ -1,6 +1,6 @@
 # Start a Tomochain masternode on DigitalOcean
 
-> omochain is a public EVM (Ethereum Virtual Machine)-compatible blockchain with the following advantages: low transaction fee, fast confirmation time, double validation and randomization for security guarantees. In particular, we propose Proof-of-Stake Voting (PoSV) consensus, a Proof-of-Stake (PoS)-based blockchain protocol with a fair voting mechanism, rigorous security guarantees and fast finality. We also present a novel reward mechanism and show that, with this mechanism, the blockchain has a low probability of forks, fast confirmation times, plus the contributions and benefits of masternodes are fair in the sense that the probability distribution function is uniform eventually.
+> Tomochain is a public EVM (Ethereum Virtual Machine)-compatible blockchain with the following advantages: low transaction fee, fast confirmation time, double validation and randomization for security guarantees. In particular, we propose Proof-of-Stake Voting (PoSV) consensus, a Proof-of-Stake (PoS)-based blockchain protocol with a fair voting mechanism, rigorous security guarantees and fast finality. We also present a novel reward mechanism and show that, with this mechanism, the blockchain has a low probability of forks, fast confirmation times, plus the contributions and benefits of masternodes are fair in the sense that the probability distribution function is uniform eventually.
 
 ## What is needed
 
