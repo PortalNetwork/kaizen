@@ -21,7 +21,7 @@ If you don't have DigitalOcean account, please sign up.
 
 ## 1. Create Project
 
-![Create Project](https://s3.amazonaws.com/kaizen-images/github/create_project.png )
+![Create Project](https://s3.amazonaws.com/kaizen-images/github/create_project.png)
 
 ## 2. Create Droplets
 
@@ -45,7 +45,7 @@ If you don't have DigitalOcean account, please sign up.
 - Choose a datacenter region
   - Bangalore
 
-![Choose Region](https://s3.amazonaws.com/kaizen-images/github/choose_region.png )
+![Choose Region](https://s3.amazonaws.com/kaizen-images/github/choose_region.png)
 
 - Select additional options (Skip)
 - Add your SSH keys (Skip)
