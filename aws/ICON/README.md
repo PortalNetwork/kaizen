@@ -138,7 +138,7 @@ Started tbears service successfully
 
 
 
-##Notice:
+## Notice:
 
 The ndoe we trying to start is private chain, if you want to switch to another net you need to fix the uri section inside tbears_cli_config.json.
 
@@ -158,10 +158,6 @@ Please note that current testnet can be reset anytime, and you may experience un
 | Transaction fee  | on                                      |
 | SCORE audit      | off                                     |
 
-To receive test ICX, please send email to `testicx@icon.foundation` with following information.
-
-- Testnet node url
-- Address to receive the testnet ICX. Address should start with `hx` followed by 20 byte string.
 
 ## Testnet for Exchanges
 
@@ -177,7 +173,6 @@ Euljiro network is exclusively open to the exchange developers.
 | Transaction fee  | on                                     |
 | SCORE audit      | on                                     |
 
-To receive test ICX, please send email to `testicx@icon.foundation` with following information.
 
 ## Mainnet
 
