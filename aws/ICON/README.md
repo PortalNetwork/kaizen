@@ -1,6 +1,7 @@
-# Setting up Wanchain on AWS
+# Setting up ICON on AWS
 
-> Wanchain aims to build a super financial market of digital assets. It is an infrastructure connecting different digital assets.
+> The ICON Project aims to build a decentralized network that allows independent blockchains with different governances to transact with one another without intermediaries. Anyone can create a new blockchain project and join the network. A new blockchain project is free to connect with existing projects and create new unique worlds, or blockchain multiverse. ICON itself can be viewed as both a living organism and an ecosystem.
+
 
 ## What is needed
 
