@@ -36,7 +36,7 @@ If you don't have AWS account, please sign up.
 Review the instance information
 ![Review Instance](https://s3.amazonaws.com/kaizen-images/github/aws_review_instance.png)
 
-### Using AWS S3 to store Wanchain blockchain data
+### Using AWS S3 to store ICON blockchain data
 
 ## 2. Connect to node
 
@@ -58,13 +58,13 @@ In order to install brew on Ubuntu we need to install some kit
 sudo apt-get install build-essential curl git ruby libbz2-dev \libcurl4-openssl-dev libexpat-dev libncurses-dev zlib1g-devtar xvfz gwan-linux-amd64-1.0.4-b7ce29ea.tar.gz
 ```
 
-Install rabbitmq (Ubuntu )
+Install rabbitmq (Ubuntu)
 
 ```
 sudo apt-get install rabbitmq-server
 ```
 
-Download install brew from source  to mount AWS S3 
+Download install brew from source to mount AWS S3
 
 ```
 git clone https://github.com/Homebrew/linuxbrew.git ~/.linuxbrew
@@ -141,7 +141,10 @@ Started tbears service successfully
 
 ## Notice:
 
-The ndoe we trying to start is private chain, if you want to switch to another net you need to fix the uri section inside tbears_cli_config.json.
+The ndoe we trying to start is private chain, if you want to switch to another net you need to fix the uri section inside 
+```
+tbears_cli_config.json
+```
 
 Please change the uri with the following net's API endpoint, then start tbears again.
 
