@@ -141,10 +141,7 @@ Started tbears service successfully
 
 ## Notice:
 
-The ndoe we trying to start is private chain, if you want to switch to another net you need to fix the uri section inside 
-```
-tbears_cli_config.json
-```
+The ndoe we trying to start is private chain, if you want to switch to another net you need to fix the uri section inside `tbears_cli_config.json`
 
 Please change the uri with the following net's API endpoint, then start tbears again.
 
