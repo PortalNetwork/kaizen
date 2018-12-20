@@ -1,6 +1,8 @@
 
 # Install Ethereum
 
+
+
 ## Installing from PPA
 
 ```
@@ -21,7 +23,9 @@ Make sure to check the different options and commands with `geth --help`
 You can alternatively install only the `geth` CLI with `apt-get install geth` if you don't want to install the other utilities (`bootnode`, `evm`, `disasm`, `rlpdump`, `ethtest`).
 
 
+
 # In order to save the storage cost we using s3 to storage the sync data of Ethereum
+
 
 ## Setup s3
 
@@ -57,7 +61,7 @@ $ chmod 640 /etc/passwd-s3fs
 $ mkdir /mnt/s3-drive
 ```
 
-## Step6：mount S3 bucket 
+## Step6：Mount S3 bucket 
 
 ```
 $ /usr/bin/s3fs <bucket-name> /mnt/s3-drive -o allow_other passwd_file=/etc/passwd-s3fs
